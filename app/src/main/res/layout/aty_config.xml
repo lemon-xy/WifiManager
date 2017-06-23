@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg"
+    android:orientation="vertical">
+
+    <pear.lemon.wifi.widget.CustomTitle
+        android:id="@+id/layTitle"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/dataView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/layTitle"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/dataEmpty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/layTitle"
+        android:gravity="center"
+        android:textColor="#616161"
+        android:textSize="16sp" />
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">WifiManager</string>
+
+    <string name="data_empty">木有Wifi信息</string>
+
+    <string name="icon_lock">\ue900</string>
+    <string name="icon_down">\ue901</string>
+    <string name="icon_up">\ue902</string>
+    <string name="icon_signal_four">\ue903</string>
+    <string name="icon_signal_off">\ue904</string>
+    <string name="icon_signal_one">\ue905</string>
+    <string name="icon_signal_three">\ue906</string>
+    <string name="icon_signal_two">\ue907</string>
+    <string name="icon_time">\ue908</string>
+    <string name="icon_back">\ue909</string>
+    <string name="icon_safe">\ue90a</string>
+    <string name="icon_content">\ue90b</string>
+</resources>

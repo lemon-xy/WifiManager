@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="@color/colorPrimary">
+
+    <pear.lemon.wifi.widget.IconTextView
+        android:id="@+id/titleLeft"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/bg_layout_title_selector"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <pear.lemon.wifi.widget.IconTextView
+        android:id="@+id/titleRight"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/bg_layout_title_selector"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <pear.lemon.wifi.widget.IconTextView
+        android:id="@+id/titleCenter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toEndOf="@id/titleLeft"
+        android:layout_toStartOf="@id/titleRight"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+</RelativeLayout>
